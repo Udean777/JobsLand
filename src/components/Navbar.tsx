@@ -35,8 +35,8 @@ function Navbar() {
                     <li><a style={{ fontSize: 18 }} href="/cari-pekerjaan">Cari Lowongan Kerja</a></li>
                     <li><a style={{ fontSize: 18 }} href="/tips-loker">Tips Loker</a></li>
                     <div className="menu-horizontal gap-3">
-                        <li><button className="btn btn-primary text-white w-20">Login</button></li>
-                        <li><button className="btn btn-secondary text-white w-20">Register</button></li>
+                        <li><a href="/login" className="btn btn-primary text-white w-20">Login</a></li>
+                        <li><a href="/register" className="btn btn-secondary text-white w-20">Register</a></li>
                     </div>
                 </ul>
             </div>

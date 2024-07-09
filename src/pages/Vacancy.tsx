@@ -34,8 +34,8 @@ function Vacancy() {
                 </p>
 
                 <div className="flex flex-col md:flex-row gap-5 justify-center mt-5">
-                    <button className="btn btn-primary text-white w-full md:w-80">Login</button>
-                    <button className="btn btn-secondary text-white w-full md:w-80">Register</button>
+                    <a href="/login" className="btn btn-primary text-white w-full md:w-80">Login</a>
+                    <a href="/register" className="btn btn-secondary text-white w-full md:w-80">Register</a>
                 </div>
             </div>
         </div>

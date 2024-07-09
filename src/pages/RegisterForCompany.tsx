@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 
 function RegisterForCompany() {
     const [showPassword, setShowPassword] = useState(false);
